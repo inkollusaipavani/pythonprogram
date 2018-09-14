@@ -1,4 +1,4 @@
-x=int(raw_input())
-h=x/60
-m=x%60
+z=int(raw_input())
+h=z/60
+m=z%60
 print h,m
