@@ -1,10 +1,10 @@
-n,m=map(int,raw_input().split())
-if(n>m):
-    min1=n
+s,p=map(int,raw_input().split())
+if(s>p):
+    min1=p
 else:
-    min1=m
+    min1=p
 while(1):
-    if(min1%n==0 and min1%m==0):
+    if(min1%p==0 and min1%s==0):
         print(min1)
         break
     min1=min1+1
